@@ -9,16 +9,16 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Login Page"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="Login Page" BackColor="White" ForeColor="#FF9900"></asp:Label>
             <br />
             <br />
             <br />
-            <asp:Label ID="Label2" runat="server" Text="UserName"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Text="UserName" ForeColor="#CC0000"></asp:Label>
 &nbsp;&nbsp;
             <asp:TextBox ID="usertxt" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:Label ID="Label3" runat="server" Text="Password"></asp:Label>
+            <asp:Label ID="Label3" runat="server" Text="Password" ForeColor="#CC0000"></asp:Label>
 &nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="passtxt" runat="server"></asp:TextBox>
             <br />
