@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Login</RootNamespace>
-    <AssemblyName>Login</AssemblyName>
+    <RootNamespace>Shopping</RootNamespace>
+    <AssemblyName>Shopping</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -72,8 +72,12 @@
       <DependentUpon>Register.mdf</DependentUpon>
     </Content>
     <Content Include="Homepage.aspx" />
+    <Content Include="Images\cart_logo.jpg" />
+    <Content Include="Images\Logo.jpg" />
+    <Content Include="Images\Logo1.jpg" />
     <Content Include="Loginpage.aspx" />
     <Content Include="Registerpage.aspx" />
+    <Content Include="Site1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -99,9 +103,24 @@
     <Compile Include="Registerpage.aspx.designer.cs">
       <DependentUpon>Registerpage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Site1.aspx.cs">
+      <DependentUpon>Site1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.aspx.designer.cs">
+      <DependentUpon>Site1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

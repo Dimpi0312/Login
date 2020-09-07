@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 
-namespace Login
+namespace Shopping
 {
     public partial class Loginpage : System.Web.UI.Page
     {
